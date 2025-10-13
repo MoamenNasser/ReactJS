@@ -6,6 +6,15 @@ This repository contains my React learning revision and small projects as I work
 
 This is my personal learning space where I practice and experiment with React and JavaScript concepts. The repository serves as:
 - A revision hub for React fundamentals
+````markdown
+# ReactJS Learning Journey 🚀
+
+This repository contains my React learning revision and small projects as I work through various JavaScript and React concepts.
+
+## About This Repository
+
+This is my personal learning space where I practice and experiment with React and JavaScript concepts. The repository serves as:
+- A revision hub for React fundamentals
 - A collection of small projects and exercises
 - A place to document my learning progress
 - Practice ground for modern JavaScript and React patterns
@@ -35,7 +44,34 @@ A JavaScript modal window implementation featuring:
 - **CSS styling** - Modern modal design with overlay effects
 - **Responsive design** - Clean, user-friendly interface
 
-### 🔧 Revision
+### � PIG_Game
+A classic two-player dice game implemented in vanilla JavaScript and DOM APIs.
+
+Key features:
+- Turn-based play for two players (Player 1 and Player 2).
+- Roll the dice: players accumulate points for the current round until they roll a 1.
+- Hold: save the current round score to the total score and pass the turn.
+- First player to reach the winning score (default 100) wins.
+- Visual dice images and simple animations.
+- Score and turn state management using plain JavaScript.
+
+Files included:
+- `index.html` — Game layout and controls (roll, hold, new game).
+- `script.js` — Game logic (roll, hold, score tracking, win detection).
+- `style.css` — Styling for layout, active player highlight, and responsive tweaks.
+
+How to play locally:
+1. Open `PIG_Game/index.html` in your browser (double-click or use a live server).
+2. Use the Roll button to roll the dice. If you roll a 1, your round ends and you lose the round points.
+3. Use the Hold button to bank your round points into your total score and pass the turn.
+4. First player to reach 100 points wins (changeable in the script).
+
+Short tips and implementation notes:
+- The dice images (`dice-1.png`–`dice-6.png`) are included in the `PIG_Game` folder and are swapped based on the random roll.
+- The implementation favors clarity over brevity to aid learning — functions are small and well-commented.
+- Try changing the starting score or winning score in `script.js` to experiment with the difficulty.
+
+### �🔧 Revision
 A React-focused project directory containing:
 - **Webpack configuration** - Modern build setup for React development
 - **Package management** - Dependencies for React ecosystem
@@ -78,6 +114,11 @@ ReactJS/
 │   ├── script.js       # Modal functionality
 │   ├── style.css       # Modal styling and effects
 │   └── .prettierrc     # Code formatting config
+├── PIG_Game/
+│   ├── index.html      # Pig game layout and controls
+│   ├── script.js       # Pig game logic (roll, hold, win detection)
+│   ├── style.css       # Pig game styling and responsive tweaks
+│   ├── dice-1.png..6.png # Dice face images
 ├── Revision/
 │   ├── src/           # React source files
 │   ├── package.json   # React dependencies
@@ -120,3 +161,4 @@ This repository represents my ongoing learning process. Feel free to explore the
 
 *Last updated: October 2025*
 *Learning path: JavaScript → React → Advanced React Concepts*
+```
